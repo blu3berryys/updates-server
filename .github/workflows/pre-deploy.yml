@@ -37,7 +37,7 @@ jobs:
           echo "Ready to deploy!" 
 
       - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 🔖 Updated update server
           commit_user_name: Zen Browser Robot
